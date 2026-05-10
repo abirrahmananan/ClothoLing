@@ -1,0 +1,9 @@
+// Auto image slider for hero section
+// let heroImages = document.querySelectorAll(".heroimg");
+// let currentImageIndex = 0;
+// setInterval(() => {
+//   heroImages.forEach((img, index) => {
+//     img.style.display = index === currentImageIndex ? "block" : "none";
+//   });
+//   currentImageIndex = (currentImageIndex + 1) % heroImages.length;
+// }, 3000);

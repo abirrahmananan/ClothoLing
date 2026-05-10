@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClothoLing | Premium Fashion Boutique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="brand-block">
+          <img class="brand-logo" src="img/logo1.png" alt="ClothoLing logo" />
+          <span class="brand-name">ClothoLing</span>
+        </div>
+        <nav class="site-nav">
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#about">About</a>
+          <a href="#order">Order</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow">Limited Edition Premium Cotton</span>
+          <h1>Exclusive Festive Kurtas for Modern Women</h1>
+          <p>
+            Elevate your wardrobe with delicate prints, luxurious lace trims,
+            and breathable cotton fabric — curated for comfort and celebration.
+          </p>
+
+          <div class="countdown-timer" id="countdownTimer">
+            <div class="timer-item">
+              <span class="timer-value" id="days">00</span>
+              <span class="timer-label">Days</span>
+            </div>
+            <div class="timer-item">
+              <span class="timer-value" id="hours">00</span>
+              <span class="timer-label">Hours</span>
+            </div>
+            <div class="timer-item">
+              <span class="timer-value" id="minutes">00</span>
+              <span class="timer-label">Minutes</span>
+            </div>
+            <div class="timer-item">
+              <span class="timer-value" id="seconds">00</span>
+              <span class="timer-label">Seconds</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#order">Buy Now</a>
+            <a class="btn btn-secondary" href="#shop">View Collection</a>
+          </div>
+
+          <div class="hero-features">
+            <div>
+              <strong>Premium</strong>
+              <span>100% cotton</span>
+            </div>
+            <div>
+              <strong>Limited</strong>
+              <span>Festive edition</span>
+            </div>
+            <div>
+              <strong>Fast</strong>
+              <span>Online checkout</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="heroImg" id="heroCarousel">
+            <div class="carousel-slide active">
+              <img
+                class="carousel-img"
+                src="img/prduct1.png"
+                alt="Damask Kurta"
+              />
+              <div class="carousel-overlay">
+                <div class="hero-tag">Damask Kurta</div>
+                <button
+                  class="carousel-buy-btn"
+                  data-product="Damask Kurta"
+                  data-price="650"
+                >
+                  <b>Buy Now</b>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img
+                class="carousel-img"
+                src="img/prduct3.png"
+                alt="Red Velvet Kurta"
+              />
+              <div class="carousel-overlay">
+                <div class="hero-tag">Red Velvet Kurta</div>
+                <button
+                  class="carousel-buy-btn"
+                  data-product="Red Velvet Kurta"
+                  data-price="650"
+                >
+                  <b>Buy Now</b>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img
+                class="carousel-img"
+                src="img/prduct2.png"
+                alt="Paisley Kurta"
+              />
+              <div class="carousel-overlay">
+                <div class="hero-tag">Paisley Kurta</div>
+                <button
+                  class="carousel-buy-btn"
+                  data-product="Paisley Kurta"
+                  data-price="650"
+                >
+                  <b>Buy Now</b>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shop-section" id="shop" data-scroll-animate>
+        <div class="section-heading">
+          <p>Featured Styles</p>
+          <h2>Shop the Latest Women’s Kurtas</h2>
+        </div>
+
+        <div class="shop-grid">
+          <article class="shop-card" data-scroll-animate>
+            <img src="img/clothoLing3.png" alt="Premium printed kurta" />
+            <div class="shop-card-copy">
+              <h3>Damask Kurta</h3>
+              <p>Festival-ready cotton with rich handcrafted prints.</p>
+            </div>
+          </article>
+
+          <article class="shop-card" data-scroll-animate>
+            <img
+              src="img/clothoLing2.png"
+              alt="Black and white paisley fabric"
+            />
+            <div class="shop-card-copy">
+              <h3>Paisley Edition</h3>
+              <p>Elegant black-and-white motifs with soft lace accents.</p>
+            </div>
+          </article>
+
+          <article class="shop-card highlighted" data-scroll-animate>
+            <img src="img/clothoLing1.png" alt="Premium kurta product" />
+            <div class="shop-card-copy">
+              <h3>Best Seller</h3>
+              <p>Signature style designed for everyday luxury.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-copy">
+          <span class="eyebrow">Why ClothoLing</span>
+          <h2>Handpicked comfort crafted for your special moments</h2>
+          <p>
+            We bring curated designs, premium fabrics, and festive prints to
+            help you look beautiful, feel confident, and celebrate every day.
+          </p>
+
+          <ul>
+            <li>Ethically sourced premium cotton</li>
+            <li>Soft, breathable comfort</li>
+            <li>Perfect for gifting and celebrations</li>
+            <li>Easy online ordering and secure checkout</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="order-section" id="order">
+        <div class="order-panel">
+          <div class="order-copy">
+            <span class="eyebrow">Checkout</span>
+            <h2>Complete Your Purchase</h2>
+            <p>
+              Enter your details below and place your order with live quantity
+              and total pricing updates.
+            </p>
+          </div>
+
+          <form id="orderForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="text" id="phone" placeholder="Phone Number" required />
+            <input
+              type="text"
+              id="productName"
+              placeholder="your Address"
+              required
+            />
+
+            <div class="price" hidden>
+              <label for="price">Price (BDT)</label>
+              <input type="number" id="price" value="650" readonly />
+            </div>
+
+            <img src="img/clothoLing1.png" alt="Product Image" height="200px" />
+
+            <div class="quantity-row">
+              <label for="quantity">Quantity</label>
+              <div class="quantity-control">
+                <button type="button" id="decreaseQty">-</button>
+                <span id="quantity">1</span>
+                <button type="button" id="increaseQty">+</button>
+              </div>
+            </div>
+
+            <p class="total-amount">
+              Total Amount: <span id="totalAmount">650.00</span> BDT
+            </p>
+
+            <button type="submit" class="btn btn-primary">Place Order</button>
+          </form>
+
+          <p id="successMsg"></p>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-copy">
+          <p>© 2026 ClothoLing. Women’s fashion boutique.</p>
+          <p>Fast shipping · Secure checkout · Premium quality</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
